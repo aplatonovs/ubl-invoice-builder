@@ -1,0 +1,29 @@
+{
+  "name": "@coophome/ubl-invoice-builder",
+  "version": "1.0.0",
+  "description": "Lightweight UBL 2.1 XML invoice generator compliant with PEPPOL BIS Billing 3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "vitest"
+  },
+  "keywords": [
+    "ubl",
+    "invoice",
+    "peppol",
+    "xml",
+    "latvia",
+    "e-invoice",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Anatolijs Platonovs (COOPhome)",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
